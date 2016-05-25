@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<!DOCTYPE "cv.dtd">
+	<!DOCTYPE CV SYSTEM "cv.dtd">
+	<?xml-stylesheet href="style.css" type="text/css" ?>
+
+		<page>
+			<section>
+				<identite>
+					<prenom>Youness</prenom>
+					<nom>Chetoui</nom>
+					<naissance>30/07/1997</naissance>
+				</identite>
+
+				<Contact>
+					<adresse>
+						<numero>3</numero>
+						<rue>Rue gina Pane</rue>
+						<cp>35000</cp>
+						<ville>Rennes</ville>
+						<pays>France</pays>
+					</adresse>
+					<tel>06.56.80.52.63</tel>
+					<mail>youness.chetoui@gmail.com</mail>				
+				</Contact>
+			</section>
+		</page>

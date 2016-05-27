@@ -1,7 +1,147 @@
-* {
-	margin: 0px;
+page {
+	background-color: #ddd6bc;
+}
+page > titre {
+	color: #5d3327;
+	font-size: 40px;
+	margin-left: 48%;
+	margin-top: 0px;
+	display:inline;
+	width: 40%;
+}
+
+Contact > titre:first-child {
+	font-size: 25px;
+	margin-left: 30%;
+}
+
+page > section:first-child {
+	width: 30%;
+	margin-left: 2%;
 }
 
 identite {
-	background-color: red;
+	color: #5d3327;
+	font-size: 45px;
+	margin-left: 2%;
+	display: block;
+	line-height: 40px;
+	width: 30%;
 }
+
+naissance {
+	font-size: 20px;
+	padding-left: 20%;
+}
+
+Contact {
+	background-color: #f1f4df;
+	color: black;
+	display: block;
+	height: 170px;
+	width: 250px;
+	padding-top: 10px;
+	margin-left: 6%;
+	margin-top: 300px;
+}
+
+adresse, tel, mail {
+	margin-left: 25%;
+}
+
+adresse {
+	display: block;
+	width: 55%;
+	padding-top: 20px;
+}
+
+tel {
+	width: 30%;
+}
+
+mail {
+	width: 30%;
+	display: block;
+	margin-left: 5%;
+}
+
+competence {
+	background-color: #f1f4df;
+	margin-right: 3%;
+	width: 60%;
+	float: right;
+	display: inline;
+	margin-top: -450px;
+	
+}	
+
+competence > titre {
+	display: block;
+	margin-left: 40%;
+	font-size: 25px;
+	line-height: 60px;
+	width: 20%;
+}
+
+section > formation:first-child {
+	background-color: #f1f4df;
+	margin-right: 3%;
+	width: 60%;
+	float: right;
+	display: inline;
+	margin-top: -300px;
+}
+
+section > formation > titre:first-child {
+	background-color: ;
+	display: block;
+	margin-left: 40%;
+	font-size: 25px;
+	line-height: 60px;
+	width: 20%;
+}
+
+section > formation:last-child {
+	background-color: #f1f4df;
+	margin-right: 3%;
+	width: 60%;
+	float: right;
+	display: inline;
+	margin-top: -202px;
+	padding-top: 20px;
+}
+
+section > formation > intitule {
+	font-weight: bold;
+}
+
+section > experience:first-child {
+	background-color: #f1f4df;
+	margin-right: 3%;
+	width: 60%;
+	float: right;
+	display: inline;
+	margin-top: -90px;
+}
+
+section > experience > titre:first-child {
+	display: block;
+	margin-left: 30%;
+	font-size: 25px;
+	line-height: 60px;
+	width: 40%;
+}
+
+section > experience > date {
+	font-weight: bold;
+}
+
+section > experience:nth-child(2) {
+
+}
+hobbie {
+	background-color: green;
+	margin-left: 22%;
+	margin-top: 400px;
+}
+

@@ -16,6 +16,8 @@
 		<!ELEMENT pays (#PCDATA)>
 	<!ELEMENT tel (#PCDATA)>
 	<!ELEMENT mail (#PCDATA)>
+<!ELEMENT photo EMPTY>
+    <!ATTLIST photo source  CDATA #REQUIRED>
 <!ELEMENT custom (autre*)>
 	<!ELEMENT autre (#PCDATA)>
 <!ELEMENT competence (random*)>

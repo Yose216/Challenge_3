@@ -137,8 +137,25 @@ section > experience > date {
 }
 
 section > experience:nth-child(2) {
-
+	background-color: #f1f4df;
+	margin-right: 3%;
+	width: 60%;
+	float: right;
+	display: inline;
+	margin-top: 0px;
+	padding-top: 20px;
 }
+
+section > experience:last-child {
+	background-color: #f1f4df;
+	margin-right: 3%;
+	width: 60%;
+	float: right;
+	display: inline;
+	margin-top: 0px;
+	padding-top: 20px;
+}
+
 hobbie {
 	background-color: green;
 	margin-left: 22%;

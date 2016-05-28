@@ -24,7 +24,7 @@ titre { /*Gras et couleur pour tt les titre*/
 identite { /*Nom + Prenom + date*/
 	color: #5d3327;
 	font-size: 45px;
-	margin-left: 4%;
+	margin-left: 3%;
 	display: block;
 	line-height: 40px;
 	width: 30%;
@@ -95,6 +95,10 @@ mail {
 formation, competence, hobbie { /*Gere les pading de ces trois section*/
 	padding-left: 10px;
 	padding-bottom: 20px;
+}
+
+competence, Contact, hobbie { /*espacement des ligne pour les trois section*/
+	line-height: 22px;
 }
 
 competence {
@@ -211,4 +215,7 @@ hobbie > titre { /*titre hobbi*/
 	margin-left: 32%;
 	font-size: 25px;
 	line-height: 60px;
+}
+competence, Contact, hobbie {
+	line-height: 22px;
 }

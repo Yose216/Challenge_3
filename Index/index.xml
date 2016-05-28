@@ -7,7 +7,7 @@
 				
 			<identite>
 				<prenom>Youness</prenom>
-				<nom>Chetoui</nom>
+				<nom>CHETOUI</nom>
 				<naissance>18ans - 30/07/1997</naissance>
 			</identite>
 		</section>				
@@ -33,7 +33,7 @@
 			<competence>
 				<titre>Competence</titre>
 				Qualités relationnelles, Autonomie, Capacité d'adaptation et d'organisation, Français (Langue maternelles), Anglais (courant),
-				Informatique (Word, Excel, Internet, Access, PowerPoint, open office).
+				Informatique (Word, Excel, Internet, Access, PowerPoint, Open office).
 			</competence>
 		</section>
 
@@ -41,13 +41,13 @@
 			<formation>
 				<titre>Formations</titre>
 				<intitule>Bac professionnel S.E.N (Systèmes Électroniques et Numériques)</intitule>
-				<date>avec mention bien Juin 2015</date>
+				<date>avec mention bien, Juin 2015</date>
 				<ecole>Lycée Charles Tillon (Rennes, France).</ecole>
 			</formation>
 			
 			<formation>
 				<intitule>BEP S.E.N (Systèmes Électroniques et Numériques)</intitule>
-				<date>avec Juin 2014</date>
+				<date>Juin 2014, </date>
 				<ecole>Lycée Charles Tillon (Rennes, France).</ecole>
 			</formation>
 		</section>			
@@ -75,6 +75,6 @@
 						
 			<hobbie>
 				<titre>Hobbie</titre>
-				Cinéma, sport, sortie entre amis, série TV, voyages (Maroc, Tunisie, Espagne)
-			</hobbie>		
+				Cinéma, sport, sortie entre amis, séries TV, voyages (Maroc, Tunisie, Espagne)
+			</hobbie>	
 	</page>

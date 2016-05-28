@@ -1,7 +1,8 @@
 page { /* couleur de fond et petite bande en plus pour la page complete*/
 	background-color: #ddd6bc;
 	padding-bottom: 40px;
-	font-family: Helvetica;
+	font-family: Contenu, Helvetica, sans-serif;
+	padding-top: 20px;
 }
 
 @font-face { /*police*/
@@ -9,10 +10,15 @@ page { /* couleur de fond et petite bande en plus pour la page complete*/
     src: url('Font_family/ColabMed.otf');/*Font-family libre de droit, trouver sur : https://www.fontsquirrel.com/fonts/Colaborate */
 }
 
+@font-face { /*police*/
+    font-family: "Contenu";
+    src: url('Font_family/ColabLig.otf');/*Meme Font-family mais plus fine*/
+}
+
 titre { /*Gras et couleur pour tt les titre*/
 	font-weight: bold;
 	color: #5d3327;
-	font-family: Titre, sans-serif;
+	font-family: Titre, Helvetica, sans-serif;
 }
 
 identite { /*Nom + Prenom + date*/
@@ -61,11 +67,6 @@ Contact > titre:first-child { /*Titre contact*/
 	margin-left: 30%;
 }
 
-page > section:first-child {
-	width: 30%;
-	margin-left: 2%;
-}
-
 naissance {
 	font-size: 20px;
 	padding-left: 20%;
@@ -91,7 +92,7 @@ mail {
 	margin-left: 12%;
 }
 
-formation, competence, hobbie {
+formation, competence, hobbie { /*Gere les pading de ces trois section*/
 	padding-left: 10px;
 	padding-bottom: 20px;
 }
@@ -115,9 +116,10 @@ competence > titre {
 
 section > formation > intitule { /* intitule en gras*/
 	font-weight: bold;
+	font-size: 18px;
 }
 
-section > formation:first-child {
+section > formation:first-child { /*Premiere formation*/
 	background-color: #f1f4df;
 	margin-right: 3%;
 	width: 60%;
@@ -134,7 +136,7 @@ section > formation > titre:first-child { /*Titre formation*/
 	width: 20%;
 }
 
-section > formation:last-child {
+section > formation:last-child { /*Derniere formation*/
 	background-color: #f1f4df;
 	margin-right: 3%;
 	width: 60%;
@@ -145,7 +147,16 @@ section > formation:last-child {
 	
 }
 
-section > experience:first-child {
+section > experience > date { /*Date en gras*/
+	font-weight: bold;
+	font-size: 18px;
+}
+
+experience > descriptif { /*descriptif qui retourne a la ligne*/
+	display: block;
+}
+
+section > experience:first-child { /*premiere exp*/
 	background-color: #f1f4df;
 	margin-right: 3%;
 	width: 60%;
@@ -163,11 +174,7 @@ section > experience > titre:first-child { /*titre experience*/
 	width: 40%;
 }
 
-section > experience > date { /*Date en gras*/
-	font-weight: bold;
-}
-
-section > experience:nth-child(2) {
+section > experience:nth-child(2) { /*Deuxieme exp*/
 	background-color: #f1f4df;
 	margin-right: 3%;
 	width: 60%;
@@ -178,7 +185,7 @@ section > experience:nth-child(2) {
 	padding-left: 10px;
 }
 
-section > experience:last-child {
+section > experience:last-child { /*derniere exp*/
 	background-color: #f1f4df;
 	margin-right: 3%;
 	width: 60%;
@@ -188,10 +195,6 @@ section > experience:last-child {
 	padding-top: 20px;
 	padding-left: 10px;
 	padding-bottom: 20px;
-}
-
-experience > descriptif { /*descriptif qui retourne a la ligne*/
-	display: block;
 }
 
 hobbie {
@@ -203,7 +206,7 @@ hobbie {
 	padding-bottom: 20px;
 }
 
-hobbie > titre {
+hobbie > titre { /*titre hobbi*/
 	display: block;
 	margin-left: 32%;
 	font-size: 25px;
